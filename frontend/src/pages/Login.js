@@ -23,7 +23,7 @@ function Login() {
                   <div className='flex-container'>
                         <Link to={"/userpage"} className='flex-item'>
                               <Button variant="primary" type="submit" className='flex-item'>
-                                    Login<Link to={"/userpage"} />
+                                    Login
                               </Button>
                         </Link>
                               
