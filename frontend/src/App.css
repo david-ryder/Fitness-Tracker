@@ -14,18 +14,23 @@
 
 .form {
     margin: auto;
-    padding-top: 2.5%;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .flex-container {
     display: flex;
     gap: 15px;
     justify-content: center;
+    width: 100%;
 }
 
 .flex-item {
-    width: 50%;
-    max-width: 250px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.content {
+    margin: auto;
+    padding: 2.5% 10%;
 }

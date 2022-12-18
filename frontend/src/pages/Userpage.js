@@ -1,6 +1,11 @@
+import CreateWorkout from '../components/CreateWorkout';
+
 function Userpage() {
     return (
-        <h1>Userpage</h1>
+        <div className='content'>
+            <h1>Userpage</h1>
+            <CreateWorkout />
+        </div>
     )
 }
 
