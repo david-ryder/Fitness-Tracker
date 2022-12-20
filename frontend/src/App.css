@@ -32,5 +32,27 @@
 
 .content {
     margin: auto;
-    padding: 2.5% 10%;
+    padding: 2.5% 5%;
+}
+
+.scroll {
+    height: 175px;
+    max-height: fit-content;
+    overflow-y: auto;
+}
+
+.add {
+    width: 100%;
+    text-align: left;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 5px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.add:hover {
+    background-color: rgb(74, 132, 255);
 }
