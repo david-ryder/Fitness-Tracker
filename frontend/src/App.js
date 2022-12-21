@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Userpage from './pages/Userpage';
 import CreateWorkout from './components/CreateWorkout'
+import Workout from './pages/Workout'
 import "./App.css"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/userpage' element={<Userpage />}></Route>
                 <Route path='/create' element={<CreateWorkout />}></Route>
+                <Route path='/workout' element={<Workout />}></Route>
             </Routes>
         </BrowserRouter>
     )
